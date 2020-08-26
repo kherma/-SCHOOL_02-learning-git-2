@@ -245,4 +245,37 @@ nav ul a:hover {
 .box .image-description p {
   font-weight: bolder;
 }
+
+/* Footer */
+footer {
+  padding: 40px 0;
+}
+
+footer .footer-row {
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+footer p {
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #606060;
+  position: absolute;
+}
+
+footer .social-media {
+  margin: 0 auto;
+}
+
+footer .social-media i {
+  background: #262626;
+  color: #F2F2F2;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
 /*# sourceMappingURL=style.css.map */

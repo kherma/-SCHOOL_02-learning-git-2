@@ -214,3 +214,31 @@ nav ul {
         }
     }
 }
+
+/* Footer */
+footer {
+    padding: 40px 0;
+    .footer-row {
+        display: flex;
+        text-align: center;
+        width: 100%;
+        position: relative;
+    }
+    p {
+        padding: 10px;
+        font-family: $title-font;
+        color: $color-middle;
+        position: absolute;
+    }
+    .social-media {
+        margin: 0 auto;
+        i {
+            background: $color-dark;
+            color: $color-light;
+            padding: 10px;
+            border-radius: 50%;
+            font-size: 1.5em;
+            margin-left: 10px;
+        }
+    }
+}
