@@ -69,6 +69,13 @@ a {
     }
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
 /* Header */
 header {
     background: url(https://images.pexels.com/photos/1053687/pexels-photo-1053687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center/cover;
@@ -176,5 +183,34 @@ nav ul {
     }
     p {
         color: $color-middle;
+    }
+}
+
+/* Portfolio */
+.portfolio {
+    background: #e9e9e9;
+    height: 100%;
+}
+
+.box {
+    text-align: center;
+    height: 400px;
+    background: #fff;
+    width: 31%;
+    margin: 20px;
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .image-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 25%;
+        p {
+            font-weight: bolder;
+        }
     }
 }
