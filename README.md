@@ -1,4 +1,4 @@
-# -SCHOOL_02-learning-git-2
+# school-02-learning-git-2
 
 
 ## Practice Project - course project;
